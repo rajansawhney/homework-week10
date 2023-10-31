@@ -1,10 +1,10 @@
 CC = gcc
 
-largest_number: largest_number.c
-	gcc largest_number.c -o largest_number -lm
+time_diff: time_diff.c
+	gcc time_diff.c -o time_diff -lm
 
 clean:
-	rm largest_number
+	rm time_diff
 
-test: largest_number
+test: time_diff
 	bash test.sh

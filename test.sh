@@ -3,10 +3,10 @@ echo
 
 echo "*****"
 echo
-echo "Find the largest number..."
-output_largest_num=$(./largest_number <test/input_largest_number)
-echo $output_largest_num
-expected_output_largest_num="24.20"
+echo "Difference between two-time periods..."
+output_time_diff=$(./time_diff <test/input_time_diff)
+echo $output_time_diff
+expected_output_time_diff="4:37:20"
 
 if [ $? -eq 0 ] ; then
   echo "Pass: Program exited zero"
@@ -15,10 +15,10 @@ else
   exit 1
 fi
 
-if [[ $output_largest_num == *$expected_output_largest_num* ]] ; then
+if [[ $output_time_diff == *$expected_output_time_diff* ]] ; then
   echo "Pass: Output is correct"
 else
-  echo "Expected '$expected_output_largest_num' but got: $output_largest_num"
+  echo "Expected '$expected_output_time_diff' but got: $output_time_diff"
   exit 1
 fi
 

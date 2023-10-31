@@ -11,3 +11,10 @@
 *.key
 *.out
 test/*.c
+
+# ignore everything
+*
+# unignore anything in a directory
+!*/
+# unignore all file with an extension
+!*.*
