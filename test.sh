@@ -4,7 +4,7 @@ echo
 echo "*****"
 echo
 echo "Difference between two-time periods..."
-output_time_diff=$(./time_diff <test/input_time_diff)
+output_time_diff=$(./time_diff <test/input_time_diff.txt)
 echo $output_time_diff
 expected_output_time_diff="4:37:20"
 

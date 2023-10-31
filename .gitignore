@@ -10,7 +10,6 @@
 *.pptx
 *.key
 *.out
-test/*.c
 
 # ignore everything
 *
