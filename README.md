@@ -1,5 +1,5 @@
 # ICS 212
-## Homework - Week 9
+## Homework - Week 10
 
 ### Instructions:
 - Update the program files following instructions provided in Homework_Week9.pdf (uploaded on Laulima) and in the program comments.
