@@ -15,5 +15,5 @@
 *
 # unignore anything in a directory
 !*/
-# unignore all file with an extension
+# unignore all files with an extension
 !*.*
